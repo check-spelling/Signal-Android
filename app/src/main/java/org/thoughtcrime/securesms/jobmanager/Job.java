@@ -391,7 +391,7 @@ public abstract class Job {
 
       /**
        * Specify the maximum number of instances you'd want of this job at any given time, as
-       * determined by the job's factory key. If enqueueing this job would put it over that limit,
+       * determined by the job's factory key. If enqueuing this job would put it over that limit,
        * it will be ignored.
        *
        * This property is ignored if the job is submitted as part of a {@link JobManager.Chain}.
@@ -405,7 +405,7 @@ public abstract class Job {
 
       /**
        * Specify the maximum number of instances you'd want of this job at any given time, as
-       * determined by the job's factory key and queue key. If enqueueing this job would put it over
+       * determined by the job's factory key and queue key. If enqueuing this job would put it over
        * that limit, it will be ignored.
        *
        * This property is ignored if the job is submitted as part of a {@link JobManager.Chain}, or
@@ -459,7 +459,7 @@ public abstract class Job {
       }
 
       /**
-       * Sets the input data that will be made availabe to the job when it is run.
+       * Sets the input data that will be made available to the job when it is run.
        * Should only be set by {@link JobController}.
        */
       @NonNull Builder setInputData(@Nullable Data inputData) {

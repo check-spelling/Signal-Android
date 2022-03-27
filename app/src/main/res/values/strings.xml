@@ -364,7 +364,7 @@
     <string name="ConversationFragment_verify">Verify</string>
     <string name="ConversationFragment_not_now">Not now</string>
     <string name="ConversationFragment_your_safety_number_with_s_changed">Your safety number with %s changed</string>
-    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Your safety number with %s changed, likely because they reinstalled Signal or changed devices. Tap Verify to confirm the new safety number. This is optional.</string>
+    <string name="ConversationFragment_your_safety_number_with_s_changed_likely_because_they_reinstalled_signal">Your safety number with %s changed, likely because they reinstalled Signal or changed devices. Tap Verify to confirm the new safety number. This is optional.</string>
     <!-- Message shown to indicate which notification profile is on/active -->
     <string name="ConversationFragment__s_on">%1$s on</string>
     <!-- Dialog title for block group link join requests -->
@@ -1839,7 +1839,7 @@
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">You</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Unsupported media type</string>
+    <string name="MediaPreviewActivity_unsupported_media_type">Unsupported media type</string>
     <string name="MediaPreviewActivity_draft">Draft</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal needs the Storage permission in order to save to external storage, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Storage\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Unable to save to external storage without permissions</string>
@@ -2773,7 +2773,7 @@
     <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details_fees</string>
     <string name="PaymentsDetailsFragment__sent_payment">Sent payment</string>
     <string name="PaymentsDetailsFragment__received_payment">Received payment</string>
-    <string name="PaymentsDeatilsFragment__payment_completed_s">Payment completed %1$s</string>
+    <string name="PaymentsDetailsFragment__payment_completed_s">Payment completed %1$s</string>
     <string name="PaymentsDetailsFragment__block_number">Block number</string>
 
     <!-- PaymentsTransferFragment -->
@@ -2949,7 +2949,7 @@
     <string name="conversation_add_to_contacts__menu_add_to_contacts">Add to contacts</string>
 
     <!-- conversation_group_options -->
-    <string name="convesation_group_options__recipients_list">Recipients list</string>
+    <string name="conversation_group_options__recipients_list">Recipients list</string>
     <string name="conversation_group_options__delivery">Delivery</string>
     <string name="conversation_group_options__conversation">Conversation</string>
     <string name="conversation_group_options__broadcast">Broadcast</string>
@@ -3113,7 +3113,7 @@
 
     <!-- KBS Megaphone -->
     <string name="KbsMegaphone__create_a_pin">Create a PIN</string>
-    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PINs keep information that’s stored with Signal encrypted.</string>
+    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrypted">PINs keep information that’s stored with Signal encrypted.</string>
     <string name="KbsMegaphone__create_pin">Create PIN</string>
 
     <!-- transport_selection_list_item -->
@@ -4100,7 +4100,7 @@
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_s_badge_help_signal">You\'ve earned %s badge! Help Signal build awareness by displaying this badge on your profile.</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_boost_badge_help_signal">You\'ve earned a Boost badge! Help Signal build awareness by displaying this badge on your profile.</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__you_can_also">You can also</string>
-    <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__become_a_montly_sustainer">become a monthly Sustainer.</string>
+    <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__become_a_monthly_sustainer">become a monthly Sustainer.</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__display_on_profile">Display on Profile</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__make_featured_badge">Make featured badge</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__done">Done</string>
@@ -4255,7 +4255,7 @@
 
     <!-- Button use to permanently delete a notification profile -->
     <string name="NotificationProfileDetails__delete_profile">Delete profile</string>
-    <!-- Snakbar message shown when removing a recipient from a profile -->
+    <!-- Snackbar message shown when removing a recipient from a profile -->
     <string name="NotificationProfileDetails__s_removed">\"%1$s\" removed.</string>
     <!-- Snackbar button text that will undo the recipient remove -->
     <string name="NotificationProfileDetails__undo">Undo</string>
@@ -4558,7 +4558,7 @@
     <!-- Dialog title for first time adding something to a story -->
     <string name="StoryDialogs__add_to_story_q">Add to story?</string>
     <!-- Dialog message for first time adding something to a story -->
-    <string name="StoryDialogs__adding_content">Adding content to your story allows your Signal connections to view it for 24 hours. You can change who can view your story in Setttings.</string>
+    <string name="StoryDialogs__adding_content">Adding content to your story allows your Signal connections to view it for 24 hours. You can change who can view your story in Settings.</string>
     <!-- First time share to story dialog: Positive action to go ahead and add to story -->
     <string name="StoryDialogs__add_to_story">Add to story</string>
     <!-- First time share to story dialog: Neutral action to edit who can view "My Story" -->

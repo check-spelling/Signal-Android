@@ -90,12 +90,12 @@ import org.thoughtcrime.securesms.conversation.ConversationAdapter.ItemClickList
 import org.thoughtcrime.securesms.conversation.ConversationAdapter.StickyHeaderViewHolder;
 import org.thoughtcrime.securesms.conversation.colors.Colorizer;
 import org.thoughtcrime.securesms.conversation.colors.RecyclerViewColorizer;
-import org.thoughtcrime.securesms.conversation.mutiselect.ConversationItemAnimator;
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectItemDecoration;
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardBottomSheet;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
+import org.thoughtcrime.securesms.conversation.multiselect.ConversationItemAnimator;
+import org.thoughtcrime.securesms.conversation.multiselect.MultiselectItemDecoration;
+import org.thoughtcrime.securesms.conversation.multiselect.MultiselectPart;
+import org.thoughtcrime.securesms.conversation.multiselect.forward.MultiselectForwardBottomSheet;
+import org.thoughtcrime.securesms.conversation.multiselect.forward.MultiselectForwardFragment;
+import org.thoughtcrime.securesms.conversation.multiselect.forward.MultiselectForwardFragmentArgs;
 import org.thoughtcrime.securesms.conversation.ui.error.EnableCallNotificationSettingsDialog;
 import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeDialog;
 import org.thoughtcrime.securesms.database.MessageDatabase;
@@ -1817,7 +1817,7 @@ public class ConversationFragment extends LoggingFragment implements Multiselect
         TextView body  = Objects.requireNonNull(dialog.findViewById(R.id.safety_number_learn_more_body));
 
         title.setText(getString(R.string.ConversationFragment_your_safety_number_with_s_changed, recipient.getDisplayName(requireContext())));
-        body.setText(getString(R.string.ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal, recipient.getDisplayName(requireContext())));
+        body.setText(getString(R.string.ConversationFragment_your_safety_number_with_s_changed_likely_because_they_reinstalled_signal, recipient.getDisplayName(requireContext())));
       });
 
       dialog.show();

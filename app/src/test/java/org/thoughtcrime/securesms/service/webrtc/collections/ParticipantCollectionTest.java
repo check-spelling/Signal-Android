@@ -45,7 +45,7 @@ public class ParticipantCollectionTest {
   }
 
   @Test
-  public void givenAnEmptyColletion_whenIAdd4Participants_thenIExpectThemToBeOrderedByLastSpokenThenAddedToCallTime() {
+  public void givenAnEmptyCollection_whenIAdd4Participants_thenIExpectThemToBeOrderedByLastSpokenThenAddedToCallTime() {
     // GIVEN
     List<CallParticipant> input = Arrays.asList(participant(1, 1, 2),
                                                 participant(2, 5, 2),
@@ -140,7 +140,7 @@ public class ParticipantCollectionTest {
     assertThat(initialCollection.getGridParticipants(), Matchers.contains(id(1), id(2), id(3), id(4), id(5), id(6)));
     assertThat(initialCollection.getListParticipants(), Matchers.contains(id(7), id(8), id(9), id(10)));
 
-    // Bob speaks about his trip to antigua...
+    // Bob speaks about his trip to Antigua...
 
     List<CallParticipant> bobSpoke = Arrays.asList(participant(1, 1, 1),
                                                    participant(2, 2, 1),
@@ -176,7 +176,7 @@ public class ParticipantCollectionTest {
     assertThat(afterHenrySpoke.getGridParticipants(), Matchers.contains(id(1), id(2), id(3), id(4), id(5), id(8)));
     assertThat(afterHenrySpoke.getListParticipants(), Matchers.contains(id(6), id(7), id(9), id(10)));
 
-    // Ignace asks how everone's holidays were
+    // Ignace asks how everyone's holidays were
 
     List<CallParticipant> ignaceSpoke = Arrays.asList(participant(1, 1, 1),
                                                         participant(2, 2, 1),
